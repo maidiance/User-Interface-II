@@ -1,5 +1,4 @@
 /*Reset*/
-/* Add CSS styling here */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -18,6 +17,7 @@ time, mark, audio, video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    }
     article, aside, details, figcaption, figure, 
     footer, header, hgroup, menu, nav, section {
         display: block;
@@ -31,4 +31,25 @@ time, mark, audio, video {
     }
     html {
         font-size: 62.5%;
+    }
+    /* Add CSS styling here */
+    /*General*/
+    h1{
+        font-family: 'EB Garamond', serif;
+        font-size: 4.5rem;
+        text-transform: uppercase;
+        color:#BF85E1;
+        margin-left: 2%;
+    }
+    /*Top*/
+    .top{
+        background-color: #4E365C;
+    }
+    .top nav{
+        display:flex;
+        margin-left: 4%;
+    }
+    .top nav .home button{
+        background-color:#1E361C;
+        color:whitesmoke;
     }
