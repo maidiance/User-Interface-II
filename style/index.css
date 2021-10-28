@@ -41,15 +41,23 @@ time, mark, audio, video {
         color:#BF85E1;
         margin-left: 2%;
     }
+    body{
+        font-family: 'EB Garamond', serif;
+        font-size: 1.8rem;
+        color: #BF85E1;
+    }
     /*Top*/
     .top{
         background-color: #4E365C;
     }
     .top nav{
-        display:flex;
         margin-left: 4%;
     }
+    .top nav button{
+        margin: 2% 0;
+        padding: 0.5% 2%;
+    }
     .top nav .home button{
-        background-color:#1E361C;
+        background-color:#1d1120;
         color:whitesmoke;
     }
