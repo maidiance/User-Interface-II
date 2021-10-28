@@ -63,15 +63,43 @@ time, mark, audio, video {
     }
     /*About*/
     #about{
+        margin: 2% 0;
         display: flex;
         justify-content: space-between;
     }
     #about .bio .img{
-        background-image: url('https://picsum.photos/id/237/200/300');
+        background-image: url('https://picsum.photos/id/237/536/354');
         background-repeat: no-repeat;
+        background-size: cover;
         background-position: center;
+        width: 50%;
+    }
+    #about .text{
         width: 50%;
     }
     #about .text h2{
         text-transform: uppercase;
+    }
+    #about .text button{
+        background-color: #d1a4eb;
+        margin: 2% 0;
+    }
+    /*Projects*/
+    #projects .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #projects .container .gallery{
+        margin: 2% auto;
+        width: 20%;
+        text-align: center;
+    }
+    #projects .container .gallery .img{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 25vh;
+    }
+    #projects .container .gallery .box-one{
+        background-image: url('https://picsum.photos/200');
     }
