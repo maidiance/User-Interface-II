@@ -54,6 +54,7 @@ time, mark, audio, video {
         margin-left: 4%;
     }
     #top nav button{
+        border-radius: 15px;
         margin: 2% 0;
         padding: 0.5% 2%;
     }
@@ -143,7 +144,7 @@ time, mark, audio, video {
         justify-content: center;
     }
     footer h2{
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
     footer .bottom{
         text-align: center;
@@ -151,6 +152,7 @@ time, mark, audio, video {
         width: 60%;
     }
     footer button{
+        border-radius: 15px;
         width: 30%;
         height: 5vh;
         margin: 2% auto;
