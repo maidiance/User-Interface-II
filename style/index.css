@@ -47,17 +47,31 @@ time, mark, audio, video {
         color: #BF85E1;
     }
     /*Top*/
-    .top{
+    #top{
         background-color: #4E365C;
     }
-    .top nav{
+    #top nav{
         margin-left: 4%;
     }
-    .top nav button{
+    #top nav button{
         margin: 2% 0;
         padding: 0.5% 2%;
     }
-    .top nav .home button{
+    #top nav .home button{
         background-color:#1d1120;
         color:whitesmoke;
+    }
+    /*About*/
+    #about{
+        display: flex;
+        justify-content: space-between;
+    }
+    #about .bio .img{
+        background-image: url('https://picsum.photos/id/237/200/300');
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 50%;
+    }
+    #about .text h2{
+        text-transform: uppercase;
     }
