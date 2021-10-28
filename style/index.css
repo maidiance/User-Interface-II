@@ -44,7 +44,7 @@ time, mark, audio, video {
     body{
         font-family: 'EB Garamond', serif;
         font-size: 1.8rem;
-        color: #BF85E1;
+        color: #1d1120;
     }
     /*Top*/
     #top{
@@ -134,4 +134,24 @@ time, mark, audio, video {
     }
     #projects .container .gallery .box-eight{
         background-image: url('https://picsum.photos/200');
+    }
+    /*Footer*/
+    footer{
+        background-color: #1d1120;
+        color: #d1a4eb;
+        display: flex;
+        justify-content: center;
+    }
+    footer h2{
+        font-size: 4rem;
+    }
+    footer .bottom{
+        text-align: center;
+        margin: 5%;
+        width: 60%;
+    }
+    footer button{
+        width: 30%;
+        height: 5vh;
+        margin: 2% auto;
     }
