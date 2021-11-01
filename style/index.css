@@ -78,7 +78,7 @@ time, mark, audio, video {
     }
     .about .bio{
         padding: 2%;
-        height: 40vh;
+        height: 25vh;
         width: 50%;
     }
     .about .text{
@@ -113,34 +113,7 @@ time, mark, audio, video {
         width: 20%;
         text-align: center;
     }
-    #projects .container .gallery .img{
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 25vh;
-    }
 
-    #projects .container .gallery .box-two{
-        background-image: url('https://picsum.photos/200');
-    }
-    #projects .container .gallery .box-three{
-        background-image: url('https://picsum.photos/200');
-    }
-    #projects .container .gallery .box-four{
-        background-image: url('https://picsum.photos/200');
-    }
-    #projects .container .gallery .box-five{
-        background-image: url('https://picsum.photos/200');
-    }
-    #projects .container .gallery .box-six{
-        background-image: url('https://picsum.photos/200');
-    }
-    #projects .container .gallery .box-seven{
-        background-image: url('https://picsum.photos/200');
-    }
-    #projects .container .gallery .box-eight{
-        background-image: url('https://picsum.photos/200');
-    }
     /*Footer*/
     footer{
         background-color: #1d1120;
@@ -188,6 +161,16 @@ time, mark, audio, video {
 
     /* media queries */
      @media (max-width: 800px){
+        /* Top Section */
+        #top nav button{
+            width: 15vw;
+            height: 5vh;
+        }
+        /* About Section */
+        .about .text button {
+            width: 20vw;
+        }
+        /* Projects Section */
         #projects {
             margin-bottom: 3vh;
         }
@@ -196,6 +179,10 @@ time, mark, audio, video {
         }
         #projects .container .gallery{
             width: 45%;
+        }
+        /* Footer Section */
+        footer button {
+            width: 20vw;
         }
      }
 
