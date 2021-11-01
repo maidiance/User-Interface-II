@@ -77,6 +77,8 @@ time, mark, audio, video {
         justify-content: center;
     }
     .about .bio{
+        display: flex;
+        justify-content: flex-end;
         padding: 2%;
         width: 50%;
     }
@@ -85,6 +87,7 @@ time, mark, audio, video {
         flex-flow: column wrap;
         justify-content: flex-end;
         width: 50%;
+        max-width: 40vw;
         margin-bottom: 1%;
         padding: 2%;
     }
@@ -233,6 +236,7 @@ time, mark, audio, video {
         }
         footer .bottom {
             margin-bottom: 1vh;
+            width: 90%;
         }
         footer .socialMedia {
             width: 80%;
