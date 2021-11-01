@@ -68,7 +68,7 @@ time, mark, audio, video {
     }
     #top nav .home button{
         background-color:#1d1120;
-        color:whitesmoke;
+        color:#e4f1fe;
     }
     /*About*/
     .about{
@@ -119,9 +119,7 @@ time, mark, audio, video {
         background-position: center;
         height: 25vh;
     }
-    #projects .container .gallery .box-one{
-        background-image: url('https://picsum.photos/200');
-    }
+
     #projects .container .gallery .box-two{
         background-image: url('https://picsum.photos/200');
     }
