@@ -194,6 +194,9 @@ time, mark, audio, video {
 
     /* media queries */
      @media (max-width: 800px){
+        #projects {
+            margin-bottom: 3vh;
+        }
         #projects .container{
             flex-wrap: wrap;
         }
@@ -223,5 +226,40 @@ time, mark, audio, video {
         .about {
             flex-direction: column;
             align-items: center;
+        }
+        .about .bio {
+            width: 85%;
+        }
+        .about .text {
+            align-items: center;
+            width: 85%;
+            text-align: center;
+        }
+        .about .text button {
+            width: 30vw;
+            height: 5vh;
+        }
+        /* Projects Section */
+        #projects {
+            margin-bottom: 2vh;
+        }
+        /* Footer Section */
+        footer {
+            flex-direction: column;
+            align-items: center;
+        }
+        footer button {
+            width: 40vw;
+        }
+        footer .bottom {
+            margin-bottom: 1vh;
+        }
+        footer .socialMedia {
+            width: 80%;
+            margin-top: 1vh;
+        }
+        footer .socialMedia .buttons .social{
+            width: 30%;
+            margin: 0 1vw;
         }
      }
