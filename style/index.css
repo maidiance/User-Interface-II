@@ -38,7 +38,7 @@ time, mark, audio, video {
         font-family: 'EB Garamond', serif;
         font-size: 4.5rem;
         text-transform: uppercase;
-        color:#BF85E1;
+        color:#e4f1fe;
         margin-left: 2%;
     }
     body{
@@ -77,12 +77,8 @@ time, mark, audio, video {
         justify-content: center;
     }
     .about .bio{
+        padding: 2%;
         height: 40vh;
-        background-color:#1d1120;
-        background-image: url('https://picsum.photos/id/237/536/354');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
         width: 50%;
     }
     .about .text{
