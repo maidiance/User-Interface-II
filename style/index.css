@@ -38,7 +38,7 @@ time, mark, audio, video {
         font-family: 'EB Garamond', serif;
         font-size: 4.5rem;
         text-transform: uppercase;
-        color:#BF85E1;
+        color:#e4f1fe;
         margin-left: 2%;
     }
     body{
@@ -47,10 +47,13 @@ time, mark, audio, video {
         color: #1d1120;
     }
     /*Top*/
+    header {
+        padding: 2%;
+        margin-bottom: 2vh;
+    }
     #top{
         background-color: #4E365C;
     }
-
     #top nav{
         margin-left: 4%;
     }
@@ -65,37 +68,36 @@ time, mark, audio, video {
     }
     #top nav .home button{
         background-color:#1d1120;
-        color:whitesmoke;
+        color:#e4f1fe;
     }
     /*About*/
-    #about{
+    .about{
         margin: 2% 0;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
     }
-    #about .bio{
-        height: 40vh;
-        background-color:#1d1120;
-        background-image: url('https://picsum.photos/id/237/536/354');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        width: 45%;
-        margin-left: 2%;
+    .about .bio{
+        display: flex;
+        justify-content: flex-end;
+        padding: 2%;
+        width: 50%;
     }
-    #about .text{
+    .about .text{
         display: flex;
         flex-flow: column wrap;
         justify-content: flex-end;
-        width: 45%;
-        gap: 5%;
+        width: 50%;
+        max-width: 40vw;
         margin-bottom: 1%;
+        padding: 2%;
     }
-    #about .text h2{
+    .about .text h2 {
+        margin-bottom: 2vh;
         font-size: 2.5rem;
         text-transform: uppercase;
     }
-    #about .text button{
+    .about .text button{
+        margin-bottom: 2vh;
         width: 25%;
         line-height: 1.3;
         background-color: #d1a4eb;
@@ -113,36 +115,7 @@ time, mark, audio, video {
         width: 20%;
         text-align: center;
     }
-    #projects .container .gallery .img{
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 25vh;
-    }
-    #projects .container .gallery .box-one{
-        background-image: url('https://picsum.photos/200');
-    }
-    #projects .container .gallery .box-two{
-        background-image: url('https://picsum.photos/200');
-    }
-    #projects .container .gallery .box-three{
-        background-image: url('https://picsum.photos/200');
-    }
-    #projects .container .gallery .box-four{
-        background-image: url('https://picsum.photos/200');
-    }
-    #projects .container .gallery .box-five{
-        background-image: url('https://picsum.photos/200');
-    }
-    #projects .container .gallery .box-six{
-        background-image: url('https://picsum.photos/200');
-    }
-    #projects .container .gallery .box-seven{
-        background-image: url('https://picsum.photos/200');
-    }
-    #projects .container .gallery .box-eight{
-        background-image: url('https://picsum.photos/200');
-    }
+
     /*Footer*/
     footer{
         background-color: #1d1120;
@@ -187,3 +160,90 @@ time, mark, audio, video {
     footer .socialMedia .buttons .social{
         width: 30%;
     }
+
+    /* media queries */
+     @media (max-width: 800px){
+        /* Top Section */
+        #top nav button{
+            width: 15vw;
+            height: 5vh;
+        }
+        /* About Section */
+        .about .text button {
+            width: 20vw;
+        }
+        /* Projects Section */
+        #projects {
+            margin-bottom: 3vh;
+        }
+        #projects .container{
+            flex-wrap: wrap;
+        }
+        #projects .container .gallery{
+            width: 45%;
+        }
+        /* Footer Section */
+        footer button {
+            width: 20vw;
+        }
+     }
+
+     @media (max-width: 500px){
+        /* Top Section */
+        #top {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        #top nav {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 50%;
+        }
+        #top nav button{
+            width: 35vw;
+            height: 5vh;
+        }
+        /* About Section */
+        .about {
+            flex-direction: column;
+            align-items: center;
+        }
+        .about .bio {
+            width: 85%;
+        }
+        .about .text {
+            align-items: center;
+            width: 85%;
+            text-align: center;
+        }
+        .about .text button {
+            width: 30vw;
+            height: 5vh;
+        }
+        /* Projects Section */
+        #projects {
+            margin-bottom: 2vh;
+        }
+        /* Footer Section */
+        footer {
+            flex-direction: column;
+            align-items: center;
+        }
+        footer button {
+            width: 40vw;
+        }
+        footer .bottom {
+            margin-bottom: 1vh;
+            width: 90%;
+        }
+        footer .socialMedia {
+            width: 80%;
+            margin-top: 1vh;
+        }
+        footer .socialMedia .buttons .social{
+            width: 30%;
+            margin: 0 1vw;
+        }
+     }
